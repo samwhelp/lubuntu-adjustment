@@ -1,8 +1,12 @@
 
+##
 ## ~/.gtkrc-2.0
+##
+## > Created by lxqt-config-appearance
+##
 
-gtk-theme-name="Greybird"
-gtk-icon-theme-name="Papirus-Light"
+gtk-theme-name="Arc-Dark"
+gtk-icon-theme-name="ePapirus"
 gtk-font-name="Sans 12"
 gtk-cursor-theme-name="breeze_cursors"
 gtk-cursor-theme-size=24
