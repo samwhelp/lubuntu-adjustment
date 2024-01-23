@@ -209,13 +209,15 @@
 
 
 
-<!-- for top_bottom_panel //-->
+<!-- for top_bottom_panel
 <margins>
 	<top>48</top>
 	<bottom>48</bottom>
 	<left>8</left>
 	<right>8</right>
 </margins>
+//-->
+
 
 <!-- for top_panel
 <margins>
@@ -226,14 +228,15 @@
 </margins>
 //-->
 
-<!-- for bottom_panel
+
+<!-- for bottom_panel //-->
 <margins>
 	<top>8</top>
 	<bottom>48</bottom>
 	<left>8</left>
 	<right>8</right>
 </margins>
-//-->
+
 
 <!--
 <margins>
@@ -279,21 +282,52 @@
 
 
 
-	<!-- ## Restart //-->
-	<keybind key="A-S-z">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Exit</name>
-			</startupnotify>
-			<command>obsession-logout</command>
-		</action>
+	<!-- ## Reconfigure //-->
+	<keybind key="A-S-c">
+		<action name="Reconfigure" />
 	</keybind>
 
 
 
+
+	<!-- ## Shutdown //-->
+	<keybind key="A-S-z">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Shutdown</name>
+			</startupnotify>
+			<command>lxqt-leave --shutdown</command>
+		</action>
+	</keybind>
+
+
+	<!-- ## Lock Screen //-->
+	<keybind key="A-C-z">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>LockScreen</name>
+			</startupnotify>
+			<command>lxqt-leave --lockscreen</command>
+		</action>
+	</keybind>	
+
+
 	<!-- ## Logout //-->
 	<keybind key="A-S-x">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Logout</name>
+			</startupnotify>
+			<command>lxqt-leave --logout</command>
+		</action>
+	</keybind>	
+
+
+	<!-- ## Logout (Openbox) //-->
+	<keybind key="A-C-x">
 		<action name="Exit" />
 	</keybind>
 
@@ -302,34 +336,38 @@
 	</keybind>
 
 
-	<!-- ## Reconfigure //-->
-	<keybind key="A-S-c">
-		<action name="Reconfigure" />
-	</keybind>
 
 
-	<!-- ## Launch obconf //-->
+
+
+
+
+
+	<!-- ## Launch obconf-qt //-->
 	<keybind key="A-S-s">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
 				<name>Openbox Configuration Manager</name>
 			</startupnotify>
-			<command>obconf</command>
+			<command>obconf-qt</command>
 		</action>
-	</keybind>
+	</keybind>	
 
 
-	<!-- ## Launch xfce4-appearance-settings //-->
+
+
+	<!-- ## Launch lxqt-config-appearance //-->
 	<keybind key="A-C-s">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
 				<name>Appearance</name>
 			</startupnotify>
-			<command>xfce4-appearance-settings</command>
+			<command>lxqt-config-appearance</command>
 		</action>
 	</keybind>
+
 
 
 	<keybind key="W-d">
@@ -348,12 +386,6 @@
 
 
 	<keybind key="W-space">
-		<action name="ShowMenu">
-			<menu>root-menu</menu>
-		</action>
-	</keybind>
-
-	<keybind key="Alt-F1">
 		<action name="ShowMenu">
 			<menu>root-menu</menu>
 		</action>
@@ -1820,16 +1852,6 @@ h l
 
 
 
-	<keybind key="Alt-F2">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>RunDialog</name>
-			</startupnotify>
-			<command>rofi -show drun -show-icons</command>
-		</action>
-	</keybind>
-
 
 
 
@@ -1871,7 +1893,7 @@ h l
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>qterminal</command>
 		</action>
 	</keybind>
 
@@ -1881,7 +1903,7 @@ h l
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>qterminal</command>
 		</action>
 	</keybind>
 
@@ -1891,7 +1913,7 @@ h l
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>xfce4-terminal --maximize</command>
+			<command>sakura -m</command>
 		</action>
 	</keybind>
 
@@ -1907,6 +1929,7 @@ h l
 	</keybind>
 
 
+
 	<!-- ## Terminal //-->
 	<keybind key="A-S-t">
 		<action name="Execute">
@@ -1918,13 +1941,14 @@ h l
 		</action>
 	</keybind>
 
+
 	<keybind key="A-C-t">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>urxvt</command>
+			<command>xfce4-terminal --maximize</command>
 		</action>
 	</keybind>
 
@@ -1970,9 +1994,12 @@ h l
 				<enabled>true</enabled>
 				<name>TextEditor</name>
 			</startupnotify>
-			<command>mousepad</command>
+			<command>featherpad</command>
 		</action>
 	</keybind>
+
+
+
 
 
 
@@ -2776,7 +2803,9 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 	//-->
 	<!-- default menu file (or custom one in $HOME/.config/openbox/) //-->
 	<!-- system menu files on Debian systems //-->
-	<file>/var/lib/openbox/debian-menu.xml</file>
+	<!-- <file>/var/lib/openbox/debian-menu.xml</file> //-->
+	<!-- Lubuntu specific : Default menu of Lubuntu -->
+	<file>/usr/share/lubuntu/openbox/menu.xml</file>
 	<file>menu.xml</file>
 	<hideDelay>200</hideDelay>
 	<!--

@@ -27,9 +27,22 @@ lxqt_config_run_post () {
 
 lxqt_service_stop () {
 
+	lxqt_service_stop_lxqt_globalkeysd
+
 	#lxqt_service_stop_xfconfd
 
 	#lxqt_service_stop_xfsettingsd
+
+
+	return 0
+
+}
+
+lxqt_service_stop_lxqt_globalkeysd () {
+
+	if killall -9 lxqt-globalkeysd; then
+		return 0
+	fi
 
 
 	return 0

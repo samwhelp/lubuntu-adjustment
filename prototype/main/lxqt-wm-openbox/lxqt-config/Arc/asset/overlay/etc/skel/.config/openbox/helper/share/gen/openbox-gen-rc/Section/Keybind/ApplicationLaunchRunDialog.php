@@ -1,5 +1,6 @@
 
-
+<?php
+/*
 	<keybind key="Alt-F2">
 		<action name="Execute">
 			<startupnotify>
@@ -9,6 +10,8 @@
 			<command>rofi -show drun -show-icons</command>
 		</action>
 	</keybind>
+*/
+?>
 
 
 <?php

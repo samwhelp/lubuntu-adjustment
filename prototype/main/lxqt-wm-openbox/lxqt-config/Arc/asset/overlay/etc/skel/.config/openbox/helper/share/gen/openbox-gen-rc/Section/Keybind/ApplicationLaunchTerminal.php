@@ -20,7 +20,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>qterminal</command>
 		</action>
 	</keybind>
 
@@ -30,7 +30,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>qterminal</command>
 		</action>
 	</keybind>
 
@@ -40,7 +40,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>xfce4-terminal --maximize</command>
+			<command>sakura -m</command>
 		</action>
 	</keybind>
 
@@ -54,6 +54,7 @@
 			<command>xfce4-terminal --drop-down</command>
 		</action>
 	</keybind>
+
 <?php
 /*
 	<keybind key="A-S-y">
@@ -80,6 +81,8 @@
 		</action>
 	</keybind>
 
+<?php
+/*
 	<keybind key="A-C-t">
 		<action name="Execute">
 			<startupnotify>
@@ -87,5 +90,17 @@
 				<name>Terminal</name>
 			</startupnotify>
 			<command>urxvt</command>
+		</action>
+	</keybind>
+*/
+?>
+
+	<keybind key="A-C-t">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Terminal</name>
+			</startupnotify>
+			<command>xfce4-terminal --maximize</command>
 		</action>
 	</keybind>

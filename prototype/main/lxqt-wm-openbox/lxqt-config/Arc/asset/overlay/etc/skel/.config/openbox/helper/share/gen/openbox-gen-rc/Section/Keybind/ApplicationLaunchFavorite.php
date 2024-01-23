@@ -41,6 +41,23 @@
 				<enabled>true</enabled>
 				<name>TextEditor</name>
 			</startupnotify>
+			<command>featherpad</command>
+		</action>
+	</keybind>
+
+
+<?php
+/*
+	<!-- ## Text Editor //-->
+	<keybind key="A-S-e">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>TextEditor</name>
+			</startupnotify>
 			<command>mousepad</command>
 		</action>
 	</keybind>
+*/
+?>
+
