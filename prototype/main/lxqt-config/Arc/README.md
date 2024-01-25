@@ -1,6 +1,6 @@
 
 
-# Xfce Config
+# Lxqt Config
 
 
 
