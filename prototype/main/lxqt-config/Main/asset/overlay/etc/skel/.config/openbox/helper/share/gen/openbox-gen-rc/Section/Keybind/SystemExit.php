@@ -6,6 +6,32 @@
 	</keybind>
 
 
+
+
+	<!-- ## Logout //-->
+	<keybind key="A-S-x">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Logout</name>
+			</startupnotify>
+			<command>lxqt-leave --logout</command>
+		</action>
+	</keybind>
+
+
+	<!-- ## Logout (Openbox) //-->
+	<keybind key="A-C-x">
+		<action name="Exit" />
+	</keybind>
+
+	<keybind key="C-A-Delete">
+		<action name="Exit" />
+	</keybind>
+
+
+
+
 <?php
 /*
 	<keybind key="A-S-z">
@@ -15,14 +41,14 @@
 ?>
 
 
-	<!-- ## Shutdown //-->
+	<!-- ## Leave //-->
 	<keybind key="A-S-z">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
-				<name>Shutdown</name>
+				<name>Leave</name>
 			</startupnotify>
-			<command>lxqt-leave --shutdown</command>
+			<command>lxqt-leave</command>
 		</action>
 	</keybind>
 
@@ -37,29 +63,6 @@
 			<command>lxqt-leave --lockscreen</command>
 		</action>
 	</keybind>	
-
-
-	<!-- ## Logout //-->
-	<keybind key="A-S-x">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Logout</name>
-			</startupnotify>
-			<command>lxqt-leave --logout</command>
-		</action>
-	</keybind>	
-
-
-	<!-- ## Logout (Openbox) //-->
-	<keybind key="A-C-x">
-		<action name="Exit" />
-	</keybind>
-
-	<keybind key="C-A-Delete">
-		<action name="Exit" />
-	</keybind>
-
 
 
 
