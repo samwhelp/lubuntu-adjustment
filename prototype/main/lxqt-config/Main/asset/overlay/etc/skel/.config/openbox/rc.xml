@@ -374,7 +374,7 @@
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
-				<name>Lxqt / Task</name>
+				<name>Lxqt / Process Manager</name>
 			</startupnotify>
 			<command>qps</command>
 		</action>
@@ -1776,6 +1776,7 @@ h l
 
 
 
+
 	<!-- Version: [k j h l] //-->
 	<keybind key="A-S-k">
 		<action name="Unmaximize" />
@@ -1819,6 +1820,7 @@ h l
 
 
 
+
 	<!-- Version: [Up Down Left Right] //-->
 	<keybind key="A-S-Up">
 		<action name="Unmaximize" />
@@ -1859,6 +1861,7 @@ h l
 			<height>50%</height>
 		</action>
 	</keybind>
+
 
 
 

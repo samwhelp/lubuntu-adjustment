@@ -43,6 +43,7 @@
 
 
 
+
 	<!-- Version: [Up Down Left Right] //-->
 	<keybind key="A-S-Up">
 		<action name="Unmaximize" />
@@ -83,6 +84,7 @@
 			<height>50%</height>
 		</action>
 	</keybind>
+
 
 <?php
 /*
