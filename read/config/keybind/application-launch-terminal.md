@@ -2,8 +2,8 @@
 title: Application Launch (Terminal)
 nav_order: 5010
 has_children: false
-parent: 按鍵綁定
-grand_parent: 設定
+parent: Keybind
+grand_parent: Config
 ---
 
 
