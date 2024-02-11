@@ -1,6 +1,7 @@
 
 
 	<!-- ## Volume Control //-->
+	<!--
 	<keybind key="A-S-v">
 		<action name="Execute">
 			<startupnotify>
@@ -10,6 +11,19 @@
 			<command>mate-volume-control</command>
 		</action>
 	</keybind>
+	//-->
+
+	<keybind key="A-S-v">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>VolumeControl</name>
+			</startupnotify>
+			<command>pavucontrol-qt</command>
+		</action>
+	</keybind>
+
+
 
 
 	<keybind key="A-m">

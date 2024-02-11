@@ -1,5 +1,18 @@
 
 
+	<keybind key="A-S-m">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>MonitorBrightnessControl</name>
+			</startupnotify>
+			<command>lxqt-config-brightness</command>
+		</action>
+	</keybind>
+
+
+
+
 	<keybind key="XF86MonBrightnessDown">
 		<action name="Execute">
 			<command>brightnessctl set 5%-</command>
