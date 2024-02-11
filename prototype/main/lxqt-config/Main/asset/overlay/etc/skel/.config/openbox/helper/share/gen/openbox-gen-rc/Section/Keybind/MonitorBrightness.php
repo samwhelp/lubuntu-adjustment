@@ -26,6 +26,25 @@
 
 
 
+	<keybind key="A-S-bracketleft">
+		<action name="Execute">
+			<command>lxqt-config-brightness -d</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-S-bracketright">
+		<action name="Execute">
+			<command>lxqt-config-brightness -i</command>
+		</action>
+	</keybind>
+
+
+
+
+<?php
+/*
+
+
 	<keybind key="XF86MonBrightnessDown">
 		<action name="Execute">
 			<command>brightnessctl set 5%-</command>
@@ -65,6 +84,10 @@
 			<command>brightnessctl set +1%</command>
 		</action>
 	</keybind>
+
+
+*/
+?>
 
 
 <?php

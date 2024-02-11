@@ -1,5 +1,9 @@
 
 
+<?php
+/*
+
+
 	<keybind key="W-F1">
 		<action name="Execute">
 			<command>openbox-focus-ctrl the_pcmanfm_qt</command>
@@ -52,3 +56,7 @@
 			<command>openbox-focus-ctrl the_xfce4_terminal</command>
 		</action>
 	</keybind>
+
+
+*/
+?>
