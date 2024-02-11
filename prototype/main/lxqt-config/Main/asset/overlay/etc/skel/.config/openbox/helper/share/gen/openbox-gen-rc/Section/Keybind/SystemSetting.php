@@ -26,6 +26,15 @@
 	</keybind>
 
 
+	<keybind key="C-Escape">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Lxqt / Process Manager</name>
+			</startupnotify>
+			<command>qps</command>
+		</action>
+	</keybind>
 
 
 <?php
