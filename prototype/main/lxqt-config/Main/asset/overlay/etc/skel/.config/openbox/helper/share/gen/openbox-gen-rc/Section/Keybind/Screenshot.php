@@ -7,6 +7,45 @@
 	</keybind>
 
 
+	<keybind key="A-Print">
+		<action name="Execute">
+			<command>screengrab -r</command>
+		</action>
+	</keybind>
+
+
+<?php
+/*
+
+## Help
+
+run
+
+``` sh
+screengrab --help
+```
+
+show
+
+```
+Usage: screengrab [options]
+ScreenGrab is a crossplatform application for fast creating screenshots of your desktop.
+
+Options:
+  -h, --help        Displays help on commandline options.
+  --help-all        Displays help including Qt specific options.
+  -v, --version     Displays version information.
+  -f, --fullscreen  Take a fullscreen screenshot
+  -a, --active      Take a screenshot of the active window
+  -r, --region      Take a screenshot of a selection of the screen
+  -m, --minimized   Run the application with a hidden main window
+
+```
+
+*/
+?>
+
+
 
 
 	<!-- Launch scrot when Print is pressed -->

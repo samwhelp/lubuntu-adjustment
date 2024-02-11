@@ -2229,6 +2229,15 @@ h l
 	</keybind>
 
 
+	<keybind key="A-Print">
+		<action name="Execute">
+			<command>screengrab -r</command>
+		</action>
+	</keybind>
+
+
+
+
 
 
 	<!-- Launch scrot when Print is pressed -->
