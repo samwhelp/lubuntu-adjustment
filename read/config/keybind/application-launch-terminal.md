@@ -14,13 +14,13 @@ grand_parent: 設定
 
 | Keybind          | Action         | Command                     |
 | ----------------- | ------------- | --------------------------- |
-| `Alt + Enter`     | 開啟 Terminal | `qterminal`                 |
-| `Alt + Shift + a` | 開啟 Terminal | `qterminal`                 |
-| `Alt + Ctrl + a`  | 開啟 Terminal | `sakura -m` |
-| `Alt + Shift + t` | 開啟 Terminal | `xterm`                     |
-| `Alt + Ctrl + t`  | 開啟 Terminal | `xfce4-terminal --maximiz`                     |
+| `Alt + Enter`     | Launch Terminal | `qterminal`                 |
+| `Alt + Shift + a` | Launch Terminal | `qterminal`                 |
+| `Alt + Ctrl + a`  | Launch Terminal | `sakura -m` |
+| `Alt + Shift + t` | Launch Terminal | `xterm`                     |
+| `Alt + Ctrl + t`  | Launch Terminal | `xfce4-terminal --maximiz`                     |
 
 
 | Keybind          | Action         | Command                     |
 | ----------------- | ------------------------- | ---------------------------- |
-| `Alt + Shift + y` | 開啟 Terminal (Drop Down) | `xfce4-terminal --drop-down` |
+| `Alt + Shift + y` | Launch Terminal (Drop Down) | `xfce4-terminal --drop-down` |
