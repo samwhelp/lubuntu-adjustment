@@ -134,6 +134,7 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 
+
 		<mousebind button="A-Up" action="Click">
 			<action name="GoToDesktop">
 				<to>previous</to>
