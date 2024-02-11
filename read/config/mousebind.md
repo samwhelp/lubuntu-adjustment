@@ -23,7 +23,7 @@ parent: Config
 
 | Config File |
 | ----------- |
-| [~/.config/openbox/bl-rc.xml](https://github.com/samwhelp/bunsenlabs-adjustment/blob/main/prototype/main/bunsen-config/Main/asset/overlay/etc/skel/.config/openbox/bl-rc.xml#L540-L1005) |
+| [~/.config/openbox/rc.xml](https://github.com/samwhelp/lubuntu-adjustment/blob/main/prototype/main/lxqt-config/Main/asset/overlay/etc/skel/.config/openbox/rc.xml) |
 
 
 
