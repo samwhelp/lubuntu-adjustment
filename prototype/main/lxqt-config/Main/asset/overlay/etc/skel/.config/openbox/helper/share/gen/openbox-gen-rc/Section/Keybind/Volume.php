@@ -26,6 +26,9 @@
 
 
 
+<?php
+/*
+
 	<keybind key="A-m">
 		<action name="Execute">
 			<command>amixer -q -D pulse sset Master toggle</command>
@@ -77,6 +80,12 @@
 			<command>amixer -q -D pulse sset Master 5%+ unmute</command>
 		</action>
 	</keybind>
+
+
+*/
+?>
+
+
 
 
 <?php
