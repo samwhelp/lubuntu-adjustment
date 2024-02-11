@@ -1,7 +1,7 @@
 ---
 title: Keybind
 nav_order: 2000
-has_children: false
+has_children: true
 parent: Config
 ---
 
