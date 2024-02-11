@@ -1,5 +1,33 @@
 
 
+	<!-- ## Launch lxqt-config //-->
+	<keybind key="A-S-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Lxqt / Configuration Center</name>
+			</startupnotify>
+			<command>lxqt-config</command>
+		</action>
+	</keybind>
+
+
+
+
+	<!-- ## Launch lxqt-config-appearance //-->
+	<keybind key="A-C-s">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Lxqt / Appearance</name>
+			</startupnotify>
+			<command>lxqt-config-appearance</command>
+		</action>
+	</keybind>
+
+
+
+
 <?php
 /*
 	<!-- ## Launch obconf //-->
@@ -16,6 +44,10 @@
 ?>
 
 
+
+
+<?php
+/*
 	<!-- ## Launch obconf-qt //-->
 	<keybind key="A-S-s">
 		<action name="Execute">
@@ -26,6 +58,10 @@
 			<command>obconf-qt</command>
 		</action>
 	</keybind>	
+*/
+?>
+
+
 
 
 <?php
@@ -42,16 +78,3 @@
 	</keybind>
 */
 ?>
-
-
-	<!-- ## Launch lxqt-config-appearance //-->
-	<keybind key="A-C-s">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Appearance</name>
-			</startupnotify>
-			<command>lxqt-config-appearance</command>
-		</action>
-	</keybind>
-

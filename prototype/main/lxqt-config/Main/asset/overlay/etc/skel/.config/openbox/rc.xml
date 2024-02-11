@@ -344,18 +344,16 @@
 
 
 
-
-
-	<!-- ## Launch obconf-qt //-->
+	<!-- ## Launch lxqt-config //-->
 	<keybind key="A-S-s">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
-				<name>Openbox Configuration Manager</name>
+				<name>Lxqt / Configuration Center</name>
 			</startupnotify>
-			<command>obconf-qt</command>
+			<command>lxqt-config</command>
 		</action>
-	</keybind>	
+	</keybind>
 
 
 
@@ -365,11 +363,22 @@
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
-				<name>Appearance</name>
+				<name>Lxqt / Appearance</name>
 			</startupnotify>
 			<command>lxqt-config-appearance</command>
 		</action>
 	</keybind>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
