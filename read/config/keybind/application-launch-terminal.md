@@ -9,6 +9,9 @@ grand_parent: Config
 
 # Application Launch (Terminal)
 
+
+## Normal Terminal
+
 * [Config Snippet](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/lxqt-config/Main/asset/overlay/etc/skel/.config/openbox/helper/share/gen/openbox-gen-rc/Section/Keybind/ApplicationLaunchTerminal.php#L16-L56)
 
 
@@ -20,6 +23,10 @@ grand_parent: Config
 | `Alt + Shift + t` | Launch Terminal | `xterm`                     |
 | `Alt + Ctrl + t`  | Launch Terminal | `xfce4-terminal --maximiz`                     |
 
+
+
+
+## Drop Down Terminal
 
 | Keybind          | Action         | Command                     |
 | ----------------- | ------------------------- | ---------------------------- |
