@@ -2,14 +2,21 @@
 
 	<keybind key="Print">
 		<action name="Execute">
-			<command>screengrab</command>
+			<command>screengrab -f</command>
+		</action>
+	</keybind>
+
+
+	<keybind key="C-Print">
+		<action name="Execute">
+			<command>screengrab -r</command>
 		</action>
 	</keybind>
 
 
 	<keybind key="A-Print">
 		<action name="Execute">
-			<command>screengrab -r</command>
+			<command>screengrab -a</command>
 		</action>
 	</keybind>
 
