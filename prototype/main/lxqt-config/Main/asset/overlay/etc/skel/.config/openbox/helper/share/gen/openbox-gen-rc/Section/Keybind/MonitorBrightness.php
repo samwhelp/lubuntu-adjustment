@@ -1,5 +1,18 @@
 
 
+	<keybind key="A-S-n">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>MonitorControl</name>
+			</startupnotify>
+			<command>lxqt-config-monitor</command>
+		</action>
+	</keybind>
+
+
+
+
 	<keybind key="A-S-m">
 		<action name="Execute">
 			<startupnotify>
