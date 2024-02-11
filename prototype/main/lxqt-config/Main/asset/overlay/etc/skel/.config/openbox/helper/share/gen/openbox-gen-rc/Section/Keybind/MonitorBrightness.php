@@ -1,6 +1,6 @@
 
 
-	<keybind key="A-S-n">
+	<keybind key="A-S-m">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
@@ -13,7 +13,7 @@
 
 
 
-	<keybind key="A-S-m">
+	<keybind key="A-S-n">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
