@@ -23,7 +23,7 @@ parent: Config
 
 | Config File |
 | ----------- |
-| [~/.config/openbox/rc.xml](https://github.com/samwhelp/lubuntu-adjustment/blob/main/prototype/main/lxqt-config/Main/asset/overlay/etc/skel/.config/openbox/rc.xml) |
+| [~/.config/openbox/rc.xml](https://github.com/samwhelp/lubuntu-adjustment/blob/main/prototype/main/lxqt-config/Main/asset/overlay/etc/skel/.config/openbox/rc.xml#L2176-L2782) |
 
 
 
