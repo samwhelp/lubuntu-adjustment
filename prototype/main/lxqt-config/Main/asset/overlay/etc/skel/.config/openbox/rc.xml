@@ -85,7 +85,7 @@
 	</font>
 	<font place="InactiveWindow">
 		<name>sans</name>
-		<size>9</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -94,7 +94,7 @@
 	</font>
 	<font place="MenuHeader">
 		<name>sans</name>
-		<size>9</size>
+		<size>11</size>
 		<!-- font size in points //-->
 		<weight>normal</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -103,7 +103,7 @@
 	</font>
 	<font place="MenuItem">
 		<name>sans</name>
-		<size>11</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>normal</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -112,7 +112,7 @@
 	</font>
 	<font place="ActiveOnScreenDisplay">
 		<name>sans</name>
-		<size>14</size>
+		<size>11</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -121,7 +121,7 @@
 	</font>
 	<font place="InactiveOnScreenDisplay">
 		<name>sans</name>
-		<size>11</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -2974,84 +2974,9 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 
-	<application class="Atom" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Code" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="code-oss" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Gedit" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="kate" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Gnome-builder" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="kdevelop" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="QtCreator" type="normal">
-		<desktop>2</desktop>
-		<focus>yes</focus>
-	</application>
 
 
 
-	<application class="Firefox" type="normal" role="browser">
-		<desktop>3</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="firefox" type="normal" role="browser">
-		<desktop>3</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Chromium-browser" type="normal">
-		<desktop>3</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Google-chrome" type="normal">
-		<desktop>3</desktop>
-		<focus>yes</focus>
-	</application>
-
-
-
-	<application class="Gnome-terminal" type="normal">
-		<desktop>4</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Mate-terminal" type="normal">
-		<desktop>4</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Terminator" type="normal">
-		<desktop>4</desktop>
-		<focus>yes</focus>
-	</application>
 
 
 

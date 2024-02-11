@@ -25,7 +25,7 @@
 	</font>
 	<font place="InactiveWindow">
 		<name>sans</name>
-		<size>9</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -34,7 +34,7 @@
 	</font>
 	<font place="MenuHeader">
 		<name>sans</name>
-		<size>9</size>
+		<size>11</size>
 		<!-- font size in points //-->
 		<weight>normal</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -43,7 +43,7 @@
 	</font>
 	<font place="MenuItem">
 		<name>sans</name>
-		<size>11</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>normal</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -52,7 +52,7 @@
 	</font>
 	<font place="ActiveOnScreenDisplay">
 		<name>sans</name>
-		<size>14</size>
+		<size>11</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
@@ -61,7 +61,7 @@
 	</font>
 	<font place="InactiveOnScreenDisplay">
 		<name>sans</name>
-		<size>11</size>
+		<size>10</size>
 		<!-- font size in points //-->
 		<weight>bold</weight>
 		<!-- 'bold' or 'normal' //-->
