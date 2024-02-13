@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [qterminal](https://github.com/samwhelp/debian-adjustment/tree/main/prototype/tool/qterminal) |
+| [qterminal](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/qterminal) |
 
 
 ## Debian Package Search
@@ -45,4 +45,4 @@ sudo apt-get install qterminal
 
 | Config File Path |
 | --- |
-| [~/.config/qterminal.org/qterminal.ini](https://github.com/samwhelp/debian-adjustment/blob/main/prototype/tool/qterminal/asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
+| [~/.config/qterminal.org/qterminal.ini](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/qterminal/asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
