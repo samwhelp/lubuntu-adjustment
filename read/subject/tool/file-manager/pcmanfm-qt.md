@@ -13,8 +13,8 @@ grand_parent: Tool
 ## Subject
 
 * [Adjustment](#adjustment)
-* [Debian Package Search](#debian-package-search)
-* [Debian Package](#debian-package)
+* [Ubuntu Package Search](#ubuntu-package-search)
+* [Ubuntu Package](#ubuntu-package)
 * [Config File Path](#config-file-path)
 
 
@@ -25,16 +25,16 @@ grand_parent: Tool
 | [pcmanfm-qt](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/pcmanfm-qt) |
 
 
-## Debian Package Search
+## Ubuntu Package Search
 
-* Debian Package Search: [pcmanfm-qt](https://packages.debian.org/search?searchon=names&keywords=pcmanfm-qt)
+* Ubuntu Package Search: [pcmanfm-qt](https://packages.ubuntu.com/search?keywords=pcmanfm-qt)
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [pcmanfm-qt](https://packages.debian.org/stable/pcmanfm-qt) |
+| [pcmanfm-qt](https://packages.ubuntu.com/noble/pcmanfm-qt) |
 
 ``` sh
 sudo apt-get install pcmanfm-qt

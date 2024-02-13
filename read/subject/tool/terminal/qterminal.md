@@ -13,8 +13,8 @@ grand_parent: Tool
 ## Subject
 
 * [Adjustment](#adjustment)
-* [Debian Package Search](#debian-package-search)
-* [Debian Package](#debian-package)
+* [Ubuntu Package Search](#ubuntu-package-search)
+* [Ubuntu Package](#ubuntu-package)
 * [Config File Path](#config-file-path)
 
 
@@ -25,16 +25,16 @@ grand_parent: Tool
 | [qterminal](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/qterminal) |
 
 
-## Debian Package Search
+## Ubuntu Package Search
 
-* Debian Package Search: [qterminal](https://packages.debian.org/search?searchon=names&keywords=qterminal)
+* Ubuntu Package Search: [qterminal](https://packages.ubuntu.com/search?keywords=qterminal)
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [qterminal](https://packages.debian.org/stable/qterminal) |
+| [qterminal](https://packages.ubuntu.com/noble/qterminal) |
 
 ``` sh
 sudo apt-get install qterminal
