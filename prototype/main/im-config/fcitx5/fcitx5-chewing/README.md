@@ -19,9 +19,9 @@
 
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
 | [fcitx5](https://packages.ubuntu.com/noble/fcitx5) |
 

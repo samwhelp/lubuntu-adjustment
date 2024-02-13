@@ -9,11 +9,11 @@
 | [~/.bashrc](./asset/overlay/etc/skel/.bashrc) |
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [bash](https://packages.debian.org/stable/bash) |
+| [bash](https://packages.ubuntu.com/noble/bash) |
 
 
 

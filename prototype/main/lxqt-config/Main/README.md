@@ -69,9 +69,9 @@
 
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
 | [lxqt](https://packages.ubuntu.com/noble/lxqt) |
 

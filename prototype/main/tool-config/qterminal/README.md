@@ -9,11 +9,11 @@
 | [~/.config/qterminal.org/qterminal.ini](./asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [qterminal](https://packages.debian.org/stable/qterminal) |
+| [qterminal](https://packages.ubuntu.com/noble/qterminal) |
 
 
 
