@@ -29,6 +29,10 @@ lxqt_service_stop () {
 
 	lxqt_service_stop_lxqt_globalkeysd
 
+	lxqt_service_stop_lxqt_panel
+
+	#lxqt_service_stop_pcmanfm_qt
+
 	#lxqt_service_stop_xfconfd
 
 	#lxqt_service_stop_xfsettingsd
@@ -41,6 +45,28 @@ lxqt_service_stop () {
 lxqt_service_stop_lxqt_globalkeysd () {
 
 	if killall -9 lxqt-globalkeysd; then
+		return 0
+	fi
+
+
+	return 0
+
+}
+
+lxqt_service_stop_lxqt_panel () {
+
+	if killall -9 lxqt-panel; then
+		return 0
+	fi
+
+
+	return 0
+
+}
+
+lxqt_service_stop_pcmanfm_qt () {
+
+	if killall -9 pcmanfm-qt; then
 		return 0
 	fi
 
