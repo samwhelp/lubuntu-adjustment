@@ -12,3 +12,10 @@
 ##
 
 compiz
+
+compiz-plugins
+compiz-plugins-default
+compiz-plugins-main
+compiz-plugins-extra
+
+compizconfig-settings-manager
