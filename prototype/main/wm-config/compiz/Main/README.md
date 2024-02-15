@@ -20,8 +20,11 @@
 | Ubuntu Package |
 | --- |
 | [compiz](https://packages.ubuntu.com/noble/compiz) |
-
-
+| [compiz-plugins](https://packages.ubuntu.com/noble/compiz-plugins) |
+| [compiz-plugins-default](https://packages.ubuntu.com/noble/compiz-plugins-default) |
+| [compiz-plugins-main](https://packages.ubuntu.com/noble/compiz-plugins-main) |
+| [compiz-plugins-extra](https://packages.ubuntu.com/noble/compiz-plugins-extra) |
+| [compizconfig-settings-manager](https://packages.ubuntu.com/noble/compizconfig-settings-manager) |
 
 
 ## Usage
