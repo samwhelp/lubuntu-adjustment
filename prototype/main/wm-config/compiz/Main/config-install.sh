@@ -20,6 +20,7 @@ compiz_config_run_post () {
 
 	compiz_service_start
 
+	compiz_gsettings_config
 
 	return 0
 
@@ -27,42 +28,13 @@ compiz_config_run_post () {
 
 compiz_service_stop () {
 
-	#compiz_service_stop_compiz_globalkeysd
-
-	#compiz_service_stop_compiz_panel
-
 	#compiz_service_stop_pcmanfm_qt
 
-	#compiz_service_stop_xfconfd
-
-	#compiz_service_stop_xfsettingsd
-
 
 	return 0
 
 }
 
-compiz_service_stop_compiz_globalkeysd () {
-
-	if killall -9 compiz-globalkeysd; then
-		return 0
-	fi
-
-
-	return 0
-
-}
-
-compiz_service_stop_compiz_panel () {
-
-	if killall -9 compiz-panel; then
-		return 0
-	fi
-
-
-	return 0
-
-}
 
 compiz_service_stop_pcmanfm_qt () {
 
@@ -75,30 +47,20 @@ compiz_service_stop_pcmanfm_qt () {
 
 }
 
-compiz_service_stop_xfconfd () {
-
-	if killall -9 xfconfd; then
-		return 0
-	fi
-
-
-	return 0
-
-}
-
-compiz_service_stop_xfsettingsd () {
-
-	if killall -9 xfsettingsd; then
-		return 0
-	fi
-
-
-	return 0
-
-}
-
 compiz_service_start () {
 
+
+	return 0
+
+}
+
+compiz_gsettings_config () {
+
+	gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
+
+	#gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:close'
+
+	gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
 
 	return 0
 
