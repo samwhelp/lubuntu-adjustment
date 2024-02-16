@@ -16,11 +16,12 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### openbox
+### compiz
 
 | Config File Path |
 | --- |
-| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
+| [~/.config/compiz-1/compizconfig/config](./asset/overlay/etc/skel/.config/compiz-1/compizconfig/config) |
+| [~/.config/compiz-1/compizconfig/Default.ini](./asset/overlay/etc/skel/.config/compiz-1/compizconfig/Default.ini) |
 
 
 ### pcmanfm-qt
