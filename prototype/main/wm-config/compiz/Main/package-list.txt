@@ -19,3 +19,14 @@ compiz-plugins-main
 compiz-plugins-extra
 
 compizconfig-settings-manager
+
+
+
+
+##
+## ## Package / numix-theme
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle

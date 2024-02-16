@@ -56,10 +56,13 @@ compiz_service_start () {
 
 compiz_gsettings_config () {
 
+	echo gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 	gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 
+	#echo gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:close'
 	#gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:close'
 
+	echo gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
 	gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
 
 	return 0
