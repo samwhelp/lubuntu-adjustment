@@ -29,7 +29,7 @@
 				<enabled>true</enabled>
 				<name>WebBrowser</name>
 			</startupnotify>
-			<command>firefox</command>
+			<command>firefox --new-tab about:blank</command>
 		</action>
 	</keybind>
 
