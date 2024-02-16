@@ -8,51 +8,39 @@
 
 
 ##
-## ## Package / Tool
+## ## Package / Window Manager / compiz
 ##
 
+compiz
+
+compiz-plugins
+compiz-plugins-default
+compiz-plugins-main
+compiz-plugins-extra
+
+compizconfig-settings-manager
 
 
-
-##
-## ## Package / Tool / Launcher
-##
-
-rofi
-
-
-
-
-##
-## ## Package / Tool / Terminal
-##
-
-xfce4-terminal
-sakura
+## compiz-gnome for gtk-window-decorator
+compiz-gnome
 
 
 
 
 ##
-## ## Package / Tool / File Manager
+## ## Package / Theme / numix-theme
 ##
 
-thunar
-
-
-
-
-##
-## ## Package / Tool / Text Editor
-##
-
-mousepad
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
 
 
 
 
 ##
-## ## Package / Tool / Image Viewer
+## ## Package  / Theme / arc-theme
 ##
 
-viewnior
+arc-theme
+arc-kde

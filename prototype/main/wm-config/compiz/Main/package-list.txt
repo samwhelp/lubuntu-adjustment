@@ -8,7 +8,7 @@
 
 
 ##
-## ## Package / compiz
+## ## Package / Window Manager / compiz
 ##
 
 compiz
@@ -28,7 +28,7 @@ compiz-gnome
 
 
 ##
-## ## Package / numix-theme
+## ## Package / Theme / numix-theme
 ##
 
 numix-gtk-theme
@@ -39,7 +39,7 @@ numix-icon-theme-circle
 
 
 ##
-## ## Package / arc-theme
+## ## Package  / Theme / arc-theme
 ##
 
 arc-theme
