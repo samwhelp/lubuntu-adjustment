@@ -1,7 +1,8 @@
 [Desktop Entry]
 Categories=Utility;
 Comment=Feh Desktop (Only Wallpaper)
-Exec=feh -bg-fill /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.jpg
+Exec=feh --bg-fill --randomize /usr/share/lubuntu/wallpapers
+#Exec=feh -bg-fill /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.jpg
 GenericName=Feh Desktop
 Hidden=false
 Icon=picom
