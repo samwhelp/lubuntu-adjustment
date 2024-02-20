@@ -11,8 +11,8 @@
 ## ## Package / Lubuntu
 ##
 
-lubuntu-restricted-addons
-lubuntu-restricted-extras
+#lubuntu-restricted-addons
+#lubuntu-restricted-extras
 
 
 
