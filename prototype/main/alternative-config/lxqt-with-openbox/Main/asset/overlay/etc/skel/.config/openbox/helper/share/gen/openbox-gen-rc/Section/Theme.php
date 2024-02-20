@@ -1,6 +1,6 @@
 
 <theme>
-	<name>Numix</name>
+	<name>Lubuntu Arc</name>
 	<titleLayout>NLIMC</titleLayout>
 	<!--
 		available characters are NDSLIMC, each can occur at most once.
