@@ -13,7 +13,9 @@
 
 i3-wm
 
-
+feh
+rofi
+picom
 
 
 ##
