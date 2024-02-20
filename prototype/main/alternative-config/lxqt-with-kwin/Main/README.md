@@ -2,6 +2,10 @@
 # Lxqt
 
 
+## Link
+
+* https://develop.kde.org/docs/plasma/aurorae/
+
 ## Config File Path
 
 
