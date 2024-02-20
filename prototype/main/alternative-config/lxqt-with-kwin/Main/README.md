@@ -20,12 +20,21 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### compiz
+### kwin
 
 | Config File Path |
 | --- |
-| [~/.config/compiz-1/compizconfig/config](./asset/overlay/etc/skel/.config/compiz-1/compizconfig/config) |
-| [~/.config/compiz-1/compizconfig/Default.ini](./asset/overlay/etc/skel/.config/compiz-1/compizconfig/Default.ini) |
+| [~/.config/kglobalshortcutsrc](./asset/overlay/etc/skel/.config/kglobalshortcutsrc) |
+| [~/.config/kactivitymanagerdrc](./asset/overlay/etc/skel/.config/kactivitymanagerdrc) |
+| [~/.config/kwinrc](./asset/overlay/etc/skel/.config/kwinrc) |
+
+
+| Config File Path |
+| --- |
+| [~/.config/kdeglobals](./asset/overlay/etc/skel/.config/kdeglobals) |
+| [~/.config/plasmarc](./asset/overlay/etc/skel/.config/plasmarc) |
+| [~/.config/kcminputrc](./asset/overlay/etc/skel/.config/kcminputrc) |
+| [~/.config/kaccessrc](./asset/overlay/etc/skel/.config/kaccessrc) |
 
 
 ### pcmanfm-qt
