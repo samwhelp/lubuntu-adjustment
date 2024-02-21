@@ -198,17 +198,17 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=Alt+Shift+G,Meta+E,Dolphin
+_launch=none,Meta+E,Dolphin
 
 [org.kde.kate.desktop]
 _k_friendly_name=Kate
-_launch=Alt+Shift+E,none,Kate
+_launch=none,none,Kate
 
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Alt+Return\tAlt+Shift+A\tAlt+Shift+T,Ctrl+Alt+T,Konsole
+_launch=Alt+Shift+T,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
@@ -285,6 +285,11 @@ switch to next activity=Alt+Tab,none,Switch to Next Activity
 switch to previous activity=Alt+`,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
+[qterminal.desktop]
+Dropdown=none,none,Drop-down terminal
+_k_friendly_name=QTerminal
+_launch=Alt+Return\tAlt+Shift+A,none,QTerminal
+
 [rofi-show-drun.desktop]
 _k_friendly_name=Rofi Show Drun
 _launch=Alt+Shift+D,none,Rofi Show Drun
@@ -299,7 +304,7 @@ _launch=Alt+Shift+W,none,Rofi Show Window
 
 [sakura.desktop]
 _k_friendly_name=Sakura
-_launch=Ctrl+Alt+A\tCtrl+Alt+T,none,Sakura
+_launch=Ctrl+Alt+A,none,Sakura
 
 [systemsettings.desktop]
 _k_friendly_name=System Settings
@@ -309,6 +314,13 @@ kcm-lookandfeel=none,none,Global Theme
 kcm-users=none,none,Users
 powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
+
+[thunar.desktop]
+_k_friendly_name=Thunar File Manager
+_launch=Alt+Shift+G,none,Thunar File Manager
+open-computer=none,none,Computer
+open-home=none,none,Home
+open-trash=none,none,Trash
 
 [wacomtablet]
 Map to fullscreen=none,Meta+Ctrl+F,Map to fullscreen
@@ -320,6 +332,11 @@ Toggle screen map selection=none,Meta+Ctrl+M,Toggle between all screens
 Toggle stylus mode=none,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
 Toggle touch tool=none,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet
+
+[xfce4-terminal.desktop]
+_k_friendly_name=Xfce Terminal
+_launch=Ctrl+Alt+T,none,Xfce Terminal
+preferences=none,none,Terminal Preferences
 
 [yakuake]
 _k_friendly_name=Yakuake
