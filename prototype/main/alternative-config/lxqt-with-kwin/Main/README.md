@@ -88,6 +88,8 @@
 | Ubuntu Package |
 | --- |
 | [lxqt](https://packages.ubuntu.com/noble/lxqt) |
+| [kwin-x11](https://packages.ubuntu.com/noble/kwin-x11) |
+| [kwin-addons](https://packages.ubuntu.com/noble/kwin-addons) |
 
 
 
