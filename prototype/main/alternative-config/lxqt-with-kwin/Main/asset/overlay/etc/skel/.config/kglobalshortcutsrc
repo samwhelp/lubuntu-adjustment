@@ -6,6 +6,12 @@ switch-to-activity-9d8ae070-8a25-4665-b7fc-5c80a2a1336e=none,none,Switch to acti
 Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[featherpad.desktop]
+_k_friendly_name=FeatherPad
+_launch=Alt+Shift+E,none,FeatherPad
+new-window=none,none,New Window
+standalone-window=none,none,Standalone Window
+
 [firefox.desktop]
 _k_friendly_name=Firefox
 _launch=Alt+Shift+B,none,Firefox
@@ -217,7 +223,7 @@ _launch=Alt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.kwrite.desktop]
 _k_friendly_name=KWrite
-_launch=Ctrl+Alt+E,none,KWrite
+_launch=none,none,KWrite
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
