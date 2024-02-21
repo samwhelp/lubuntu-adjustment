@@ -33,9 +33,7 @@ lxqt_service_stop () {
 
 	#lxqt_service_stop_pcmanfm_qt
 
-	#lxqt_service_stop_xfconfd
-
-	#lxqt_service_stop_xfsettingsd
+	lxqt_service_stop_kde_kglobalaccel
 
 
 	return 0
@@ -75,20 +73,9 @@ lxqt_service_stop_pcmanfm_qt () {
 
 }
 
-lxqt_service_stop_xfconfd () {
+lxqt_service_stop_kde_kglobalaccel () {
 
-	if killall -9 xfconfd; then
-		return 0
-	fi
-
-
-	return 0
-
-}
-
-lxqt_service_stop_xfsettingsd () {
-
-	if killall -9 xfsettingsd; then
+	if killall -9 kglobalaccel5; then
 		return 0
 	fi
 
@@ -98,6 +85,16 @@ lxqt_service_stop_xfsettingsd () {
 }
 
 lxqt_service_start () {
+
+	lxqt_service_start_kde_kglobalaccel
+
+	return 0
+
+}
+
+lxqt_service_start_kde_kglobalaccel () {
+
+	kglobalaccel5 &
 
 
 	return 0
