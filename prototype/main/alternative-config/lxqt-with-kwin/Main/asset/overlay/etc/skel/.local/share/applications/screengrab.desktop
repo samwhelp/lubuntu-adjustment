@@ -225,7 +225,7 @@ Terminal=false
 Type=Application
 Categories=Graphics;RasterGraphics;Qt;
 X-KDE-StartupNotify=false
-X-KDE-Shortcuts=Meta+Shift+Print
+X-KDE-Shortcuts=Ctrl+Print
 
 Name=Capture Rectangular Region
 Name[ar]=التقط منطقة مستطيلة
