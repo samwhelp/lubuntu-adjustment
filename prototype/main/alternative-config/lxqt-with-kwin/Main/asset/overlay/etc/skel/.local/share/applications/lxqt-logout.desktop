@@ -4,7 +4,7 @@ Exec=lxqt-leave --logout
 Icon=system-log-out
 Categories=System;X-Leave;
 OnlyShowIn=LXQt;
-X-KDE-Shortcuts=Print
+X-KDE-Shortcuts=Alt+Shift+X
 
 Name=Logout
 GenericName=Logout from the current session
