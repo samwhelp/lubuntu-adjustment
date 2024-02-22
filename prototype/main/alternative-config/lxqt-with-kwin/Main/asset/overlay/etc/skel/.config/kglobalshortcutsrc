@@ -202,6 +202,14 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[lxqt-leave.desktop]
+_k_friendly_name=Leave
+_launch=Alt+Shift+Z,Alt+Shift+Z,Leave
+
+[lxqt-logout.desktop]
+_k_friendly_name=Logout
+_launch=Alt+Shift+X,Alt+Shift+X,Logout
+
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=none,Meta+E,Dolphin
