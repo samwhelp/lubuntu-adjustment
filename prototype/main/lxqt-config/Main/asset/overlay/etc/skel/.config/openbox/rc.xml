@@ -1921,6 +1921,9 @@ h l
 		</action>
 	</keybind>
 
+
+
+
 	<keybind key="A-S-a">
 		<action name="Execute">
 			<startupnotify>
@@ -1941,6 +1944,38 @@ h l
 		</action>
 	</keybind>
 
+
+
+
+	<keybind key="A-S-t">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Terminal</name>
+			</startupnotify>
+			<command>konsole</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-C-t">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>Terminal</name>
+			</startupnotify>
+			<command>xfce4-terminal --maximize</command>
+		</action>
+	</keybind>
+
+
+
+
+
+
+
+
+
+
 	<!-- ## Terminal-Quake //-->
 	<keybind key="A-S-y">
 		<action name="Execute">
@@ -1952,29 +1987,6 @@ h l
 		</action>
 	</keybind>
 
-
-
-	<!-- ## Terminal //-->
-	<keybind key="A-S-t">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal</name>
-			</startupnotify>
-			<command>xterm</command>
-		</action>
-	</keybind>
-
-
-	<keybind key="A-C-t">
-		<action name="Execute">
-			<startupnotify>
-				<enabled>true</enabled>
-				<name>Terminal</name>
-			</startupnotify>
-			<command>xfce4-terminal --maximize</command>
-		</action>
-	</keybind>
 
 
 	<!-- ## File Manager //-->
