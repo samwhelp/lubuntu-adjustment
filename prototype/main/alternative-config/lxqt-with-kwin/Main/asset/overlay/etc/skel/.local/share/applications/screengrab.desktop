@@ -103,7 +103,7 @@ Terminal=false
 Type=Application
 Categories=Graphics;RasterGraphics;Qt;
 X-KDE-StartupNotify=false
-X-KDE-Shortcuts=Shift+Print
+X-KDE-Shortcuts=Alt+Print
 
 Name=Capture Entire Desktop
 Name[ar]=التقط سطح المكتب بالكامل
