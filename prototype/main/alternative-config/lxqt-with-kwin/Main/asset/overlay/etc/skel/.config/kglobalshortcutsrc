@@ -322,10 +322,10 @@ _launch=Ctrl+Alt+A,none,Sakura
 
 [screengrab.desktop]
 ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
-FullScreenScreenShot=Alt+Print,Alt+Print,Capture Entire Desktop
+FullScreenScreenShot=Print,Print,Capture Entire Desktop
 RectangularRegionScreenShot=Ctrl+Print,Ctrl+Print,Capture Rectangular Region
 _k_friendly_name=ScreenGrab
-_launch=Print,Print,ScreenGrab
+_launch=Alt+Print,Alt+Print,ScreenGrab
 
 [systemsettings.desktop]
 _k_friendly_name=System Settings

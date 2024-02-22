@@ -5,7 +5,7 @@ Terminal=false
 Type=Application
 Categories=Graphics;RasterGraphics;Qt;
 X-KDE-StartupNotify=false
-X-KDE-Shortcuts=Print
+X-KDE-Shortcuts=Alt+Print
 Actions=FullScreenScreenShot;ActiveWindowScreenShot;RectangularRegionScreenShot;
 
 Name=ScreenGrab
@@ -103,7 +103,7 @@ Terminal=false
 Type=Application
 Categories=Graphics;RasterGraphics;Qt;
 X-KDE-StartupNotify=false
-X-KDE-Shortcuts=Alt+Print
+X-KDE-Shortcuts=Print
 
 Name=Capture Entire Desktop
 Name[ar]=التقط سطح المكتب بالكامل
