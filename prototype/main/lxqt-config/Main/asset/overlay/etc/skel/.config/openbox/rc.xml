@@ -2111,21 +2111,28 @@ h l
 
 	<keybind key="Print">
 		<action name="Execute">
-			<command>screengrab -f</command>
+			<command>screengrab --fullscreen</command>
+		</action>
+	</keybind>
+
+
+	<keybind key="W-Print">
+		<action name="Execute">
+			<command>screengrab --active</command>
 		</action>
 	</keybind>
 
 
 	<keybind key="C-Print">
 		<action name="Execute">
-			<command>screengrab -r</command>
+			<command>screengrab --region</command>
 		</action>
 	</keybind>
 
 
 	<keybind key="A-Print">
 		<action name="Execute">
-			<command>screengrab -a</command>
+			<command>screengrab</command>
 		</action>
 	</keybind>
 
