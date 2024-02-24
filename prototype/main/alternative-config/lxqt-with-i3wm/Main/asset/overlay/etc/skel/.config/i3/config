@@ -337,14 +337,14 @@ bindsym Mod1+Shift+f exec pcmanfm-qt
 bindsym Mod1+Shift+g exec thunar
 
 
-## Launch Text Editor (mousepad)
+## Launch Text Editor (featherpad)
 ## Alt + Shift + e
-bindsym Mod1+Shift+e exec mousepad
+bindsym Mod1+Shift+e exec featherpad
 
 
 ## Launch Web Browser (firefox)
 ## Alt + Shift + b
-bindsym Mod1+Shift+b exec firefox
+bindsym Mod1+Shift+b exec firefox --new-tab about:blank
 
 ##
 ### Tail: Keybind / Application / Favorite
@@ -1089,8 +1089,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 ### Head: Rule / Workspace / File
 ##
 
-assign [class="pcmanfm-qt"] $the_workspace_1
-assign [class="thunr"] $the_workspace_1
+#assign [class="pcmanfm-qt"] $the_workspace_1
+#assign [class="thunr"] $the_workspace_1
 
 ##
 ### Tail: Rule / Workspace / File
@@ -1101,7 +1101,7 @@ assign [class="thunr"] $the_workspace_1
 ### Head: Rule / Workspace / Edit
 ##
 
-assign [class="Atom"] $the_workspace_2
+#assign [class="Atom"] $the_workspace_2
 
 ##
 ### Tail: Rule / Workspace / Edit
@@ -1112,7 +1112,7 @@ assign [class="Atom"] $the_workspace_2
 ### Head: Rule / Workspace / Web
 ##
 
-assign [class="Navigator|firefox"] $the_workspace_3
+#assign [class="Navigator|firefox"] $the_workspace_3
 
 ##
 ### Tail: Rule / Workspace / Web
