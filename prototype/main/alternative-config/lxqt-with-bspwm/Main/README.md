@@ -16,11 +16,12 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### i3wm
+### bspwm
 
 | Config File Path |
 | --- |
-| [~/.config/i3/config](./asset/overlay/etc/skel/.config/i3/config) |
+| [~/.config/bspwm/bspwmrc](./asset/overlay/etc/skel/.config/bspwm/bspwmrc) |
+| [~/.config/bspwm/sxhkdrc](./asset/overlay/etc/skel/.config/bspwm/sxhkdrc) |
 
 
 ### pcmanfm-qt
