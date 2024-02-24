@@ -18,6 +18,11 @@ feh
 rofi
 picom
 
+alsa-utils
+brightnessctl
+
+
+
 
 ##
 ## ## Package / Theme / numix-theme

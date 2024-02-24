@@ -25,6 +25,10 @@ compizconfig-settings-manager
 compiz-gnome
 
 
+alsa-utils
+brightnessctl
+
+
 
 
 ##

@@ -13,6 +13,9 @@
 
 openbox
 
+alsa-utils
+brightnessctl
+
 
 
 
