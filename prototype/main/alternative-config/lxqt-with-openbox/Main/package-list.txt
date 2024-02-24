@@ -13,8 +13,8 @@
 
 openbox
 
-alsa-utils
-brightnessctl
+#alsa-utils
+#brightnessctl
 
 
 

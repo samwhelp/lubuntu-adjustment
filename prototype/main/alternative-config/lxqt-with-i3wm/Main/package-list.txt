@@ -17,8 +17,8 @@ feh
 rofi
 picom
 
-alsa-utils
-brightnessctl
+#alsa-utils
+#brightnessctl
 
 
 ##
