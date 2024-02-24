@@ -570,28 +570,28 @@ alt + shift + r
 ## `Alt + Enter`
 ##
 alt + Return
-	sakura -m
+	qterminal
 
 ##
 ## ## Launch Terminal
 ## `Alt + Shift + a`
 ##
 alt + shift + a
-	sakura -m
+	qterminal
 
 ##
 ## ## Launch Terminal
 ## `Alt + Ctrl + a`
 ##
 alt + ctrl + a
-	xfce4-terminal --maximize
+	sakura
 
 ##
 ## ## Launch Terminal
 ## `Alt + Shift + t`
 ##
 alt + shift + t
-	xterm
+	konsole
 
 
 ##
@@ -599,7 +599,7 @@ alt + shift + t
 ## `Alt + Ctrl + t`
 ##
 alt + ctrl + t
-	urxvt
+	xfce4-terminal
 
 ##
 ## ## Launch Terminal
@@ -638,7 +638,7 @@ alt + shift + g
 ## `Alt + Shift + e`
 ##
 alt + shift + e
-	mousepad
+	featherpad
 
 ##
 ## ## Launch File Browser
