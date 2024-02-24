@@ -493,6 +493,7 @@ h l
 
 
 	<!-- alt+[, alt+] //-->
+	<!--
 	<keybind key="A-bracketleft">
 		<action name="GoToDesktop">
 			<to>left</to>
@@ -504,6 +505,7 @@ h l
 			<to>right</to>
 		</action>
 	</keybind>
+	//-->
 
 
 	<!-- For Simple [1-10] //-->
@@ -2022,6 +2024,16 @@ h l
 		</action>
 	</keybind>
 
+	<keybind key="A-C-b">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>WebBrowser</name>
+			</startupnotify>
+			<command>firefox</command>
+		</action>
+	</keybind>
+
 
 	<!-- ## Text Editor //-->
 	<keybind key="A-S-e">
@@ -2062,6 +2074,42 @@ h l
 				<name>VolumeControl</name>
 			</startupnotify>
 			<command>pavucontrol-qt</command>
+		</action>
+	</keybind>
+
+
+
+
+
+
+	<keybind key="A-m">
+		<action name="Execute">
+			<command>amixer -q -D pulse sset Master toggle</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-S-comma">
+		<action name="Execute">
+			<command>amixer -q -D pulse sset Master 5%- unmute</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-S-period">
+		<action name="Execute">
+			<command>amixer -q -D pulse sset Master 5%+ unmute</command>
+		</action>
+	</keybind>
+
+
+	<keybind key="A-C-comma">
+		<action name="Execute">
+			<command>amixer -q -D pulse sset Master 1%- unmute</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-C-period">
+		<action name="Execute">
+			<command>amixer -q -D pulse sset Master 1%+ unmute</command>
 		</action>
 	</keybind>
 
@@ -2943,40 +2991,6 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 
-	<application class="pcmanfm-qt" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Pcmanfm" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Spacefm" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Nautilus" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Thunar" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="dolphin" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
-
-	<application class="Filezilla" type="normal">
-		<desktop>1</desktop>
-		<focus>yes</focus>
-	</application>
 
 
 
@@ -2984,12 +2998,6 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 
-
-
-	<application class="Xephyr" type="normal">
-		<desktop>5</desktop>
-		<focus>yes</focus>
-	</application>
 
 
 </applications>

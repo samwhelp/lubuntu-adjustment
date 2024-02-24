@@ -26,8 +26,7 @@
 
 
 
-<?php
-/*
+
 
 	<keybind key="A-m">
 		<action name="Execute">
@@ -63,6 +62,8 @@
 
 
 
+<?php
+/*
 	<keybind key="XF86AudioMute">
 		<action name="Execute">
 			<command>amixer -q -D pulse sset Master toggle</command>

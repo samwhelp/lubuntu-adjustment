@@ -64,6 +64,7 @@ h l
 
 
 	<!-- alt+[, alt+] //-->
+	<!--
 	<keybind key="A-bracketleft">
 		<action name="GoToDesktop">
 			<to>left</to>
@@ -75,6 +76,7 @@ h l
 			<to>right</to>
 		</action>
 	</keybind>
+	//-->
 
 
 	<!-- For Simple [1-10] //-->

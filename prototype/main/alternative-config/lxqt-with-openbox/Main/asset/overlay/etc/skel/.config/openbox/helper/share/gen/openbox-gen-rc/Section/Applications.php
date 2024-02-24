@@ -102,13 +102,13 @@
 
 
 <?php // 1:File ?>
-<?php include_once(__DIR__ . '/Rule/Pcmanfm-qt.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Pcmanfm.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Spacefm.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Nautilus.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Thunar.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Dolphin.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Filezilla.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Pcmanfm-qt.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Pcmanfm.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Spacefm.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Nautilus.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Thunar.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Dolphin.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Filezilla.php'); ?>
 
 
 <?php // 2:Edit ?>
@@ -139,7 +139,7 @@
 
 
 <?php // 5:Misc ?>
-<?php include_once(__DIR__ . '/Rule/Xephyr.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Xephyr.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Mpv.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Vlc.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Smplayer.php'); ?>

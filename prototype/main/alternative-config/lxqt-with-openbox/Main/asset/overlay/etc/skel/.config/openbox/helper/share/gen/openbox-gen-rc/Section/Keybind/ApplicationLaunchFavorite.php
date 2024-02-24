@@ -33,6 +33,16 @@
 		</action>
 	</keybind>
 
+	<keybind key="A-C-b">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>WebBrowser</name>
+			</startupnotify>
+			<command>firefox</command>
+		</action>
+	</keybind>
+
 
 	<!-- ## Text Editor //-->
 	<keybind key="A-S-e">
