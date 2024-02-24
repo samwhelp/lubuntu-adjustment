@@ -258,29 +258,35 @@ bindsym Mod1+Shift+z exec lxqt-leave
 ##
 
 
-## Launch sakura
+## Launch terminal
 ## Alt + Enter
 bindsym Mod1+Return exec qterminal
 
 
-## Launch sakura
+## Launch terminal
 ## Alt + Shift + a
 bindsym Mod1+Shift+a exec qterminal
 
 
-## Launch xfce4-terminal
+## Launch terminal
 ## Alt + Ctrl + a
 bindsym Mod1+Ctrl+a exec sakura
 
 
-## Launch xterm
+## Launch terminal
 ## Alt + Shift + t
 bindsym Mod1+Shift+t exec konsole
 
 
-## Launch urxvt
+## Launch terminal
 ## Alt + Ctrl + t
 bindsym Mod1+Ctrl+t exec xfce4-terminal
+
+
+## Launch dropdown terminal
+## Alt + Shift + y
+#bindsym Mod1+Shift+y exec xfce4-terminal --drop-down
+
 
 ##
 ### Tail: Keybind / Application / Terminal
@@ -342,9 +348,13 @@ bindsym Mod1+Shift+g exec thunar
 bindsym Mod1+Shift+e exec featherpad
 
 
-## Launch Web Browser (firefox)
+## Launch Web Browser (firefox new-tab)
 ## Alt + Shift + b
 bindsym Mod1+Shift+b exec firefox --new-tab about:blank
+
+## Launch Web Browser (firefox)
+## Alt + Ctrl + b
+bindsym Mod1+Ctrl+b exec firefox
 
 ##
 ### Tail: Keybind / Application / Favorite
