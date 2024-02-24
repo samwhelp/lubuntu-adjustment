@@ -35,6 +35,8 @@
 | [~/.config/plasmarc](./asset/overlay/etc/skel/.config/plasmarc) |
 | [~/.config/kcminputrc](./asset/overlay/etc/skel/.config/kcminputrc) |
 | [~/.config/kaccessrc](./asset/overlay/etc/skel/.config/kaccessrc) |
+| [~/.config/krunnerrc](./asset/overlay/etc/skel/.config/krunnerrc) |
+| [~/.config/ktimezonedrc](./asset/overlay/etc/skel/.config/ktimezonedrc) |
 
 
 ### pcmanfm-qt
