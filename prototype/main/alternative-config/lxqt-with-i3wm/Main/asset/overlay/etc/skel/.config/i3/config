@@ -270,17 +270,17 @@ bindsym Mod1+Shift+a exec qterminal
 
 ## Launch xfce4-terminal
 ## Alt + Ctrl + a
-bindsym Mod1+Ctrl+a exec xfce4-terminal
+bindsym Mod1+Ctrl+a exec sakura
 
 
 ## Launch xterm
 ## Alt + Shift + t
-bindsym Mod1+Shift+t exec sakura
+bindsym Mod1+Shift+t exec konsole
 
 
 ## Launch urxvt
 ## Alt + Ctrl + t
-bindsym Mod1+Ctrl+t exec urxvt
+bindsym Mod1+Ctrl+t exec xfce4-terminal
 
 ##
 ### Tail: Keybind / Application / Terminal
