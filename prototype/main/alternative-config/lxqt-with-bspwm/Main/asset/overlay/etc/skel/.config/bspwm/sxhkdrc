@@ -37,19 +37,36 @@
 
 
 ##
-## ## Shutdown
+## ## Leave
 ## `Alt + Shift + z`
 ##
 alt + shift + z
-	shutdown now
+	lxqt-leave
+
+##
+## ## Logout
+## `Alt + Shift + x`
+##
+alt + shift + x
+	lxqt-leave --logout
+
+
+
+
+##
+## ## Shutdown
+## `Alt + Shift + z`
+##
+#alt + shift + z
+#	shutdown now
 
 ##
 ## ## Logout
 ## `Alt + Shift + x`
 ## > quit bspwm normally
 ##
-alt + shift + x
-	bspc quit
+#alt + shift + x
+#	bspc quit
 
 ##
 ## ## Reconfigure
@@ -842,28 +859,44 @@ XF86AudioRaiseVolume
 
 
 ## Key_Brightness_Decrease
-XF86MonBrightnessDown
-	brightnessctl set 5%-
+#XF86MonBrightnessDown
+#	brightnessctl set 5%-
 
 ## Key_Brightness_Increase
-XF86MonBrightnessUp
-	brightnessctl set +5%
+#XF86MonBrightnessUp
+#	brightnessctl set +5%
+
+## Brightness_Decrease
+#alt + shift + bracketleft
+#	brightnessctl set 5%-
+
+## Brightness_Increase
+#alt + shift + bracketright
+#	brightnessctl set +5%
+
+## Brightness_Decrease_Slowly
+#alt + ctrl + bracketleft
+#	brightnessctl set 1%-
+
+## Brightness_Increase_Slowly
+#alt + ctrl + bracketright
+#	brightnessctl set +1%
+
+
+
+
+## Brightness_Control
+alt + shift + n
+	lxqt-config-brightness
 
 ## Brightness_Decrease
 alt + shift + bracketleft
-	brightnessctl set 5%-
+	lxqt-config-brightness -d
 
 ## Brightness_Increase
 alt + shift + bracketright
-	brightnessctl set +5%
+	lxqt-config-brightness -i
 
-## Brightness_Decrease_Slowly
-alt + ctrl + bracketleft
-	brightnessctl set 1%-
-
-## Brightness_Increase_Slowly
-alt + ctrl + bracketright
-	brightnessctl set +1%
 
 ##
 ### Tail: Monitor Brightness / Control
