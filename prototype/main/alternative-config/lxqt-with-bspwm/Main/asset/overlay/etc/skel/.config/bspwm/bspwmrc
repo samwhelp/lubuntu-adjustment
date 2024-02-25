@@ -87,9 +87,22 @@ skel_rule () {
 	##
 
 
+	##
+	## ## Link
+	##
+	## * https://wiki.archlinux.org/title/bspwm#Rules
+	##
+	## $ xprop | grep WM_CLASS
+	##
+	## $ xwininfo
+	##
+
+
 	## floating
 	#bspc rule -a *:*:'ScreenGrab' state=floating sticky
-	bspc rule -a *:*:'ScreenGrab' state=floating follow=on
+	#bspc rule -a *:*:'ScreenGrab' state=floating follow=on
+	bspc rule -a screengrab state=floating follow=on
+
 
 
 	## workspace 1
