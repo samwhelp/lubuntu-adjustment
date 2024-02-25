@@ -711,15 +711,51 @@ alt + ctrl + w
 ## ## Screenshot
 ## `Print`
 ##
-Print
-	scrot
+#Print
+#	scrot
 
 ##
 ## ## Screenshot Selected Area
 ## `Alt + Print`
 ##
+#alt + Print
+#	scrot -s
+
+
+
+
+##
+## ## for lxqt
+##
+
+
+##
+## ## Screenshot
+## `Print`
+##
+Print
+	screengrab --fullscreen
+
+##
+## ## Screenshot Current Window
+## `Win + Print`
+##
+super + Print
+	screengrab --active
+
+##
+## ## Screenshot Region
+## `Ctrl + Print`
+##
+ctrl + Print
+	screengrab --region
+
+##
+## ## Launch ScreenGrab
+## `Alt + Print`
+##
 alt + Print
-	scrot -s
+	screengrab
 
 
 ##
@@ -884,6 +920,14 @@ XF86AudioRaiseVolume
 
 
 
+
+##
+## ## for lxqt
+##
+
+## Monitor_Control
+alt + shift + m
+	lxqt-config-monitor
 
 ## Brightness_Control
 alt + shift + n
