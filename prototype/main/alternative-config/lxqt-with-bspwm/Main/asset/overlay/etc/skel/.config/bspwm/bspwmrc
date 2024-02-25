@@ -94,7 +94,7 @@ skel_rule () {
 	##
 	## $ xprop | grep WM_CLASS
 	##
-	## $ xwininfo
+	## $ xwininfo | grep 'Window id'
 	##
 
 
