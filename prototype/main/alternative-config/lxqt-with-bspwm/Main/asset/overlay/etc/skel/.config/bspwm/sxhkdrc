@@ -811,14 +811,32 @@ alt + Print
 ## mate-volume-control (Package: mate-media)
 
 
+
+
+##
+## ##  VolumeControl
+## `Alt + Shift + v`
+##
+#alt + shift + v
+#	mate-volume-control
+
+
 ##
 ## ##  VolumeControl
 ## `Alt + Shift + v`
 ##
 alt + shift + v
-	mate-volume-control
-	#pavucontrol
-	#pavucontrol-qt
+	pavucontrol-qt
+
+
+##
+## ##  VolumeControl
+## `Alt + Shift + v`
+##
+#alt + shift + v
+#	pavucontrol
+
+
 
 
 # https://askubuntu.com/questions/65764/how-do-i-toggle-sound-with-amixer
@@ -873,22 +891,22 @@ alt + ctrl + period
 ## ## VolumeToggleMute
 ## `XF86AudioMute`
 ##
-XF86AudioMute
-	amixer -q -D pulse sset Master toggle
+#XF86AudioMute
+#	amixer -q -D pulse sset Master toggle
 
 ##
 ## ## VolumeDecrease
 ## `XF86AudioLowerVolume`
 ##
-XF86AudioLowerVolume
-	amixer -q -D pulse sset Master 5%- unmute
+#XF86AudioLowerVolume
+#	amixer -q -D pulse sset Master 5%- unmute
 
 ##
 ## ## VolumeIncrease
 ## `XF86AudioRaiseVolume`
 ##
-XF86AudioRaiseVolume
-	amixer -q -D pulse sset Master 5%+ unmute
+#XF86AudioRaiseVolume
+#	amixer -q -D pulse sset Master 5%+ unmute
 
 
 ##
