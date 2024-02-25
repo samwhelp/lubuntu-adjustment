@@ -103,6 +103,9 @@ skel_rule () {
 	#bspc rule -a *:*:'ScreenGrab' state=floating follow=on
 	bspc rule -a screengrab state=floating follow=on
 
+	bspc rule -a lxqt-config state=floating follow=on
+
+
 
 
 	## workspace 1
