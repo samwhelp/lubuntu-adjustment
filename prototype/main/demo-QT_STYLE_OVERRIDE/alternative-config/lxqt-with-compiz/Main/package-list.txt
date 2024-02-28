@@ -1,0 +1,50 @@
+
+
+##
+## # Lxqt
+##
+
+
+
+
+##
+## ## Package / Window Manager / compiz
+##
+
+compiz
+
+compiz-plugins
+compiz-plugins-default
+compiz-plugins-main
+compiz-plugins-extra
+
+compizconfig-settings-manager
+
+
+## compiz-gnome for gtk-window-decorator
+compiz-gnome
+
+
+#alsa-utils
+#brightnessctl
+
+
+
+
+##
+## ## Package / Theme / numix-theme
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
+
+
+
+
+##
+## ## Package  / Theme / arc-theme
+##
+
+arc-theme
+arc-kde
