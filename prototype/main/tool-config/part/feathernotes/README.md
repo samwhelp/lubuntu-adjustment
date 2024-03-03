@@ -9,11 +9,11 @@
 | [~/.config/feathernotes/fn.conf](./asset/overlay/etc/skel/.config/feathernotes/fn.conf) |
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [feathernotes](https://packages.debian.org/stable/feathernotes) |
+| [feathernotes](https://packages.ubuntu.com/noble/feathernotes) |
 
 
 

@@ -7,19 +7,24 @@
 | Config File Path |
 | --- |
 | [~/.config/geany/geany.conf](./asset/overlay/etc/skel/.config/geany/geany.conf) |
+| [~/.config/geany/keybindings.conf](./asset/overlay/etc/skel/.config/geany/keybindings.conf) |
+| [~/.config/geany/ui_toolbar.xml](./asset/overlay/etc/skel/.config/geany/ui_toolbar.xml) |
+| [~/.config/geany/colorschemes/](./asset/overlay/etc/skel/.config/geany/colorschemes) |
 
 
-## Debian Package
+## Ubuntu Package
 
-| Debian Package |
+| Ubuntu Package |
 | --- |
-| [geany](https://packages.debian.org/stable/geany) |
+| [geany](https://packages.ubuntu.com/noble/geany) |
 
 
-## Geany
+## Link
 
-* Geany / [Themes](https://www.geany.org/download/themes/)
-* GitHub / [geany-themes](https://github.com/geany/geany-themes)
+| Link |
+| ---- |
+| Geany / [Themes](https://www.geany.org/download/themes/)        |
+| GitHub / [geany-themes](https://github.com/geany/geany-themes)  |
 
 
 ## Usage
