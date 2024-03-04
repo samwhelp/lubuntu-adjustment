@@ -10,4 +10,4 @@ parent: Tool
 
 | Terminal | Adjustment |
 | --- | --- |
-| [qterminal](https://samwhelp.github.io/lubuntu-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/qterminal) |
+| [qterminal](https://samwhelp.github.io/lubuntu-adjustment/read/subject/tool/terminal/qterminal.html) | [Adjustment](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/part/qterminal) |

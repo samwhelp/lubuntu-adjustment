@@ -10,4 +10,4 @@ parent: Tool
 
 | File Manager | Adjustment |
 | --- | --- |
-| [pcmanfm-qt](https://samwhelp.github.io/lubuntu-adjustment/read/subject/tool/file-manager/pcmanfm-qt.html) | [Adjustment](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/pcmanfm-qt) |
+| [pcmanfm-qt](https://samwhelp.github.io/lubuntu-adjustment/read/subject/tool/file-manager/pcmanfm-qt.html) | [Adjustment](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/part/pcmanfm-qt) |
