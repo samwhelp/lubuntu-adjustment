@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [qterminal](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/qterminal) |
+| [qterminal](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/part/qterminal) |
 
 
 ## Ubuntu Package Search

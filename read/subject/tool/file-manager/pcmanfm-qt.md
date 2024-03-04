@@ -22,7 +22,7 @@ grand_parent: Tool
 
 | Adjustment |
 | --- |
-| [pcmanfm-qt](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/pcmanfm-qt) |
+| [pcmanfm-qt](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/tool-config/part/pcmanfm-qt) |
 
 
 ## Ubuntu Package Search
