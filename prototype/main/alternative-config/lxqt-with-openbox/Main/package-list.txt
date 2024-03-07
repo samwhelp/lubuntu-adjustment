@@ -13,6 +13,10 @@
 
 openbox
 
+feh
+rofi
+picom
+
 #alsa-utils
 #brightnessctl
 
