@@ -8,7 +8,7 @@
 
 
 ##
-## ## Package / Window Manager / bspwm
+## ## Package / Window Manager / xfwm4
 ##
 
 xfwm4
