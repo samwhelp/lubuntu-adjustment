@@ -9,6 +9,7 @@ grub_system_var_init () {
 
 	THE_COMMAND_UPDATE_GRUB="update-grub"
 	THE_COMMAND_UPDATE_GRUB2="update-grub2"
+	THE_COMMAND_GRUB_MKCONFIG="grub-mkconfig -o /boot/grub/grub.cfg"
 
 
 
@@ -40,6 +41,7 @@ grub_system_var_dump () {
 	util_debug_echo
 	util_debug_echo "THE_COMMAND_UPDATE_GRUB=${THE_COMMAND_UPDATE_GRUB}"
 	util_debug_echo "THE_COMMAND_UPDATE_GRUB2=${THE_COMMAND_UPDATE_GRUB2}"
+	util_debug_echo "THE_COMMAND_GRUB_MKCONFIG=${THE_COMMAND_GRUB_MKCONFIG}"
 
 
 	util_debug_echo
@@ -80,10 +82,9 @@ grub_system_update_grub () {
 	util_error_echo
 
 
-	util_error_echo
-	util_error_echo sudo ${THE_COMMAND_UPDATE_GRUB}
-	util_error_echo
-	sudo ${THE_COMMAND_UPDATE_GRUB}
+	mod_grub_system_update_grub
+
+	#mod_grub_system_grub_mkconfig
 
 
 	util_error_echo
@@ -94,4 +95,35 @@ grub_system_update_grub () {
 
 ##
 ### Tail: Setting / Module / Grub-System / Portal
+################################################################################
+
+
+
+
+################################################################################
+### Head: Grub-System / update_grub
+##
+
+mod_grub_system_update_grub () {
+
+	util_error_echo
+	util_error_echo sudo ${THE_COMMAND_UPDATE_GRUB}
+	util_error_echo
+	sudo ${THE_COMMAND_UPDATE_GRUB}
+
+	return 0
+}
+
+mod_grub_system_grub_mkconfig () {
+
+	util_error_echo
+	util_error_echo sudo ${THE_COMMAND_GRUB_MKCONFIG}
+	util_error_echo
+	sudo ${THE_COMMAND_GRUB_MKCONFIG}
+
+	return 0
+}
+
+##
+### Tail: Grub-System / update_grub
 ################################################################################
