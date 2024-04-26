@@ -39,7 +39,7 @@ main_prototype_install () {
 
 	#util_error_echo 'main_prototype_install'
 
-	grub_mkconfig_helper_prototype_install
+	#grub_mkconfig_helper_prototype_install
 
 	grub_theme_prototype_install
 
