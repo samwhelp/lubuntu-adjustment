@@ -72,12 +72,12 @@ grub_system_var_dump
 ### Head: Setting / Module / Grub-System / Portal
 ##
 
-grub_system_update_grub () {
+grub_system_config_recreate () {
 
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## grub_system_update_grub"
+	util_error_echo "## ## grub_system_config_recreate"
 	util_error_echo "##"
 	util_error_echo
 
@@ -101,7 +101,7 @@ grub_system_update_grub () {
 
 
 ################################################################################
-### Head: Grub-System / update_grub
+### Head: Grub-System / config_recreate
 ##
 
 mod_grub_system_update_grub () {
@@ -125,5 +125,5 @@ mod_grub_system_grub_mkconfig () {
 }
 
 ##
-### Tail: Grub-System / update_grub
+### Tail: Grub-System / config_recreate
 ################################################################################

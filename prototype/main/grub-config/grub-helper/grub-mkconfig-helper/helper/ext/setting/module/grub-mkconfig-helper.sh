@@ -97,7 +97,7 @@ grub_mkconfig_helper_config_install () {
 
 	mod_grub_mkconfig_helper_config_install
 
-	grub_system_update_grub
+	grub_system_config_recreate
 
 
 

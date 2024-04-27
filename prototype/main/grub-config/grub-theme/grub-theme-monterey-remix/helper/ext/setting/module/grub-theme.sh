@@ -126,7 +126,7 @@ grub_theme_config_install () {
 
 	mod_grub_theme_config_install
 
-	grub_system_update_grub
+	grub_system_config_recreate
 
 
 
