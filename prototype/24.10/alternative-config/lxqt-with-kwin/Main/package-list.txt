@@ -15,11 +15,45 @@ kwin-x11
 kwin-addons
 
 
+
+
 ##
-## ## Package / Qt Style / numix-theme
+## ## Package / KWin Decoration / aurorae
 ##
 
-qt5-style-kvantum
+## for /usr/lib/x86_64-linux-gnu/qt6/plugins/org.kde.kdecoration2/org.kde.kwin.aurorae.so
+kwin-common
+
+
+
+
+##
+## ## Package / KWin Decoration / oxygen
+##
+
+kwin-decoration-oxygen
+
+
+
+
+##
+## ## Package / KWin Decoration / breeze
+##
+
+kwin-style-breeze
+
+
+
+
+##
+## ## Package / Qt Style / kvantum
+##
+
+qt6-style-kvantum
+#qt6-style-kvantum-l10n
+#qt6-style-kvantum-themes
+
+#qt5-style-kvantum
 #qt5-style-kvantum-l10n
 #qt5-style-kvantum-themes
 
@@ -27,7 +61,7 @@ qt5-style-kvantum
 
 
 ##
-## ## Package / Theme / numix-theme
+## ## Package / Theme / numix
 ##
 
 numix-gtk-theme
@@ -38,8 +72,27 @@ numix-icon-theme-circle
 
 
 ##
-## ## Package  / Theme / arc-theme
+## ## Package / Theme / orchis
 ##
 
-arc-theme
-arc-kde
+orchis-kde
+#orchis-gtk-theme
+
+
+
+##
+## ## Package  / Theme / arc
+##
+
+#arc-kde
+#arc-theme
+
+
+
+
+##
+## ## Package  / Theme / materia
+##
+
+#materia-kde
+#materia-gtk-theme

@@ -8,6 +8,23 @@
 
 
 
+## Explore
+
+run
+
+``` sh
+apt-cache search aurorae
+```
+
+show
+
+```
+arc-kde - Port of the popular GTK theme Arc for Plasma 5
+materia-kde - Port of the popular GTK theme Materia for Plasma 5
+orchis-kde - Port of the popular GTK theme Orchis for Plasma
+```
+
+
 
 ## Config File Path
 
