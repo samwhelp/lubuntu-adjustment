@@ -5,7 +5,7 @@
 ## > Created by lxqt-config-appearance
 ##
 
-gtk-theme-name="Arc-Dark"
+gtk-theme-name="Arc"
 gtk-icon-theme-name="ePapirus"
 gtk-font-name="Sans 12"
 gtk-cursor-theme-name="breeze_cursors"
