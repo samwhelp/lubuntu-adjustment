@@ -1,7 +1,7 @@
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false
-ColorScheme=ArcDark
+ColorScheme=OrchisDark
 XftSubPixel=none
 fixed=Monospace,12,-1,5,50,0,0,0,0,0
 font=Sans Serif,12,-1,5,50,0,0,0,0,0
