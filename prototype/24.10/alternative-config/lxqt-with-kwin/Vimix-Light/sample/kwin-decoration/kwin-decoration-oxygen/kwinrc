@@ -1,0 +1,4 @@
+
+[org.kde.kdecoration2]
+library=org.kde.oxygen
+theme=Oxygen
