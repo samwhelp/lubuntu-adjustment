@@ -13,7 +13,7 @@ toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 Theme=Papirus-Dark
 
 [KDE]
-LookAndFeelPackage=com.github.varlesh.arc-dark
+LookAndFeelPackage=com.github.vinceliuice.Orchis-dark
 ShowDeleteCommand=true
 SingleClick=false
 widgetStyle=kvantum-dark
