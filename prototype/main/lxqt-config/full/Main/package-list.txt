@@ -8,6 +8,99 @@
 
 
 ##
+## ## Link
+##
+## * https://wiki.archlinux.org/title/xfce
+## * https://archlinux.org/groups/x86_64/xfce4/
+## * https://archlinux.org/groups/x86_64/xfce4-goodies/
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / lxqt
+##
+
+lxqt
+
+
+
+
+##
+## ## Package / Window Manager / openbox
+##
+
+openbox
+obconf-qt
+
+
+feh
+rofi
+picom
+
+#alsa-utils
+#brightnessctl
+
+
+
+
+##
+## ## Package / Theme
+##
+
+gtk-engines
+gtk-engine-murrine
+
+qt5-svg
+qt6-svg
+
+
+
+
+##
+## ## Package / Theme / papirus-theme
+##
+
+papirus-icon-theme
+
+
+
+
+##
+## ## Package / Theme / numix-theme
+##
+
+#numix-gtk-theme-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#numix-folders-git
+
+
+
+
+##
+## ## Package  / Theme / arc-theme
+##
+
+arc-gtk-theme
+#arc-icon-theme
+
+
+
+
+##
+## ## Package / Theme / breeze-theme
+##
+
+breeze
+breeze-gtk
+breeze-icons
+
+
+
+
+##
 ## ## Package / Tool
 ##
 
@@ -27,8 +120,9 @@ rofi
 ## ## Package / Tool / Terminal
 ##
 
+qterminal
 xfce4-terminal
-sakura
+#sakura
 
 
 
@@ -38,6 +132,7 @@ sakura
 ##
 
 thunar
+pcmanfm-qt
 
 
 
@@ -47,6 +142,13 @@ thunar
 ##
 
 mousepad
+vim
+micro
+
+featherpad
+feathernotes
+
+geany
 
 
 
@@ -56,3 +158,23 @@ mousepad
 ##
 
 viewnior
+
+
+
+
+##
+## ## Package / Tool / Media Player
+##
+
+vlc
+mpv
+smplayer
+
+
+
+
+##
+## ## Package / Tool / Audio Player
+##
+
+audacious

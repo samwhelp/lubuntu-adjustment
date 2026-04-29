@@ -3,7 +3,7 @@
 # Lxqt Config
 
 * [Config File Path](#config-file-path)
-* [Ubuntu Package](#ubuntu-package)
+* [Arch Group Package](#fedora-group-package)
 * [Usage](#usage)
 
 
@@ -136,11 +136,11 @@
 
 
 
-## Ubuntu Package
+## Arch Group Package
 
-| Ubuntu Package |
+| Arch Group Package |
 | --- |
-| [lxqt](https://packages.ubuntu.com/noble/lxqt) |
+| [lxqt](https://archlinux.org/groups/x86_64/lxqt/) |
 
 
 
