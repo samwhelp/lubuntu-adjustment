@@ -11,7 +11,7 @@
 
 ## Subject
 
-* [Adjustment](#adjustment)
+* [Script](#script)
 * [Keybind](#keybind)
 * [Tool](#tool)
 * [Link](#link)
@@ -19,11 +19,12 @@
 
 
 
-## Adjustment
+## Script
 
-| Adjustment |
-| ---------- |
-| [Lubuntu 24.04](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/lxqt-config/Main) |
+| Script |
+| ------ |
+| [Lxqt Config](https://github.com/samwhelp/lubuntu-adjustment/tree/main/prototype/main/lxqt-config/Main) |
+| [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
 
@@ -58,3 +59,10 @@
 | [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
 | [Xubuntu Adjustment](https://samwhelp.github.io/xubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/xubuntu-adjustment) |
 | [Openbox Adjustment](https://samwhelp.github.io/openbox-adjustment/) | [GitHub](https://github.com/samwhelp/openbox-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
