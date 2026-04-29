@@ -31,7 +31,7 @@
 <?php include_once(__DIR__ . '/Keybind/WindowBeginMove.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/WindowBeginResize.php'); ?>
 
-<?php include_once(__DIR__ . '/Keybind/WindowTiling.php'); ?>
+<?php //include_once(__DIR__ . '/Keybind/WindowTiling.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/WindowTilingMoveSide.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/WindowTilingMoveCorner.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/WindowMoveToCenter.php'); ?>
