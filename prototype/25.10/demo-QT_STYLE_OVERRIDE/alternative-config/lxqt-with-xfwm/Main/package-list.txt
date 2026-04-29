@@ -1,0 +1,35 @@
+
+
+##
+## # Lxqt
+##
+
+
+
+
+##
+## ## Package / Window Manager / bspwm
+##
+
+xfwm4
+
+
+
+
+##
+## ## Package / Theme / numix-theme
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
+
+
+
+
+##
+## ## Package  / Theme / arc-theme
+##
+
+arc-theme
+arc-kde
