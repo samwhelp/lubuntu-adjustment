@@ -31,7 +31,7 @@ lxqt_service_stop () {
 
 	lxqt_service_stop_lxqt_panel
 
-	#lxqt_service_stop_pcmanfm_qt
+	lxqt_service_stop_pcmanfm_qt
 
 	#lxqt_service_stop_xfconfd
 
